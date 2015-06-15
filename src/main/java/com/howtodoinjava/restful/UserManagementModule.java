@@ -7,6 +7,7 @@ import javax.ws.rs.core.Response;
 @Path("/user-management")
 public class UserManagementModule
 {
+	// created by shaunak meghavala
 	@GET
 	@Path("/users")
 	public Response getAllUsers()
